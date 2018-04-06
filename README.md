@@ -1,6 +1,7 @@
 # Pagenation
-纯js无依赖前端分页插件
-配置与使用说明：
+### 纯js无依赖前端分页插件
+#### 配置与使用说明：
+```javascript
 <div id="pageDom"></div>
 
 var pageDom = document.getElementById("pageDom");
@@ -21,3 +22,4 @@ pageDom.bindPageEvent({   //通常都是ajax读取到数据后进行事件绑定
     openFL:true    //选填，开启第一页最后一页按钮，默认开启
     }
 );
+```
