@@ -5,7 +5,7 @@
 <div id="pageDom"></div>
 
 var pageDom = document.getElementById("pageDom");
-pageDom.bindPageEvent({   //通常都是ajax读取到数据后进行事件绑定
+pagination.bindPageEvent({   //通常都是ajax读取到数据后进行事件绑定
     param:{   //*必填，列表查询参数
         pageIndex:1,  //*必填，查询页码
         pageSize:5   //*必填，查询单页数量
